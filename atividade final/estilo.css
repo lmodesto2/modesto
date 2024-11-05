@@ -1,0 +1,18 @@
+/* Estilos para a imagem */
+.imagem-container {
+    display: flex;            /* Usa Flexbox para centralizar a imagem */
+    justify-content: center;  /* Centraliza a imagem horizontalmente */
+    align-items: center;      /* Centraliza a imagem verticalmente */
+    width: 300px;             /* Define a largura do contêiner quadrado */
+    height: 300px;            /* Define a altura do contêiner quadrado */
+    overflow: hidden;         /* Garante que a imagem não ultrapasse as bordas */
+    background-color: #fff;   /* Cor de fundo do contêiner (opcional) */
+    border-radius: 8px;       /* Bordas arredondadas no contêiner (opcional) */
+}
+
+/* Estilos específicos para a imagem */
+.imagem-container img {
+    width: 100%;              /* A imagem vai ocupar 100% da largura do contêiner */
+    height: 100%;             /* A imagem vai ocupar 100% da altura do contêiner */
+    object-fit: cover;        /* A imagem vai cobrir o contêiner sem distorcer */
+}
